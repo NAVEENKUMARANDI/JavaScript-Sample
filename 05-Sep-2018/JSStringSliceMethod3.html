@@ -1,0 +1,24 @@
+<html>
+<body>
+
+<h2>JavaScript String Methods</h2>
+
+<p>The slice() method extract a part of a string
+and returns the extracted parts in a new string:</p>
+
+<p id="demo"></p>
+<p id="test"></p>
+
+<script>
+var str = "Apple, Banana, Kiwi";
+var res = str.slice(-12)
+
+var str1 = "Apple, Banana, Kiwi";
+var res1 = str1.slice(-12, -14)
+
+document.getElementById("demo").innerHTML = res;
+document.getElementById("test").innerHTML = res1;
+</script>
+
+</body>
+</html>
